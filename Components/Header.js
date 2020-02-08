@@ -1,10 +1,10 @@
 import Link from 'next/link';
 
-const linknStyle = {
+const linkStyle = {
     marginRight: 15
 };
 
-const Header = () => {
+const Header = () => (
     <div>
         <Link href="/">
             <a style={linkStyle}>Home</a>
@@ -13,6 +13,6 @@ const Header = () => {
             <a style={linkStyle}>About</a>
         </Link>
     </div>
-}
+)
 
 export default Header
