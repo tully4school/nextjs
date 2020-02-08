@@ -1,10 +1,11 @@
-import Header from '../components/Header';
+import Layout from '../Components/MyLayout';
 
 export default function about() {
     return (
         <div>
-            <Header />
-            <p>Learning Next.js</p>
+            <Layout>
+                <p>Learning Next.js</p>
+            </Layout>
         </div>
     )
 }
