@@ -22,7 +22,7 @@ import fetch from 'isomorphic-unfetch';
 //         </Layout>
 //     );
 // }
-
+//////////////////FETCHING DATA///////////////
 const Index = props => (
     <Layout>
         <h1>Batman TV Shows</h1>
